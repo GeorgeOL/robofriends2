@@ -7,7 +7,7 @@ import './index.css';
 // import Hello from "./Hello.js";
 import 'tachyons';
 import { robot } from "./robot";
-import { createRoot } from 'react-dom/gitclient';
+import { createRoot } from 'react-dom';
 import CardList from './CardList';
 // import { render } from 'react-dom'
 // const root = ReactDOM.createRoot(document.getElementById('root'));
