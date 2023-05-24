@@ -5,8 +5,8 @@ import Card from "./Card";
 const CardList = ({ robot }) => {
     // const cardComponent =
 
-return (
-        <div>
+    return (
+        <>
             {
                 robot.map((user, i) => {
                     return (
@@ -18,7 +18,7 @@ return (
                     )
                 })
             }
-        </div>
+        </>
     );
 }
 

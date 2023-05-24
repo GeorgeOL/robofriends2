@@ -6,9 +6,9 @@ import './index.css';
 // import reportWebVitals from './reportWebVitals';
 // import Hello from "./Hello.js";
 import 'tachyons';
-import { robot } from "./robot";
-import { createRoot } from 'react-dom/gitclient';
-import CardList from './CardList';
+// import { robot } from "./robot";
+import { createRoot } from 'react-dom/client';
+import App from './App';
 // import { render } from 'react-dom'
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -33,5 +33,7 @@ import CardList from './CardList';
 
 const root = createRoot(document.getElementById('root'));
 root.render(
-   <CardList robot = {robot}/>
+   <App>
+       
+   </App>
 );
