@@ -1,9 +1,15 @@
 import React from "react";
 
-const SearchBox = () => {
+const SearchBox = ({searchfield ,searchChange}) => {
     return (
-        <><input type='search' placeholder='search robots' className = 'pa3 ba b--green bg-lightest-blue' />
-            {/*/!*<div className = 'pa3 ba b--green bg-lightest-blue' />*!/  scris in continuare pentru culoare al "SearchBox"*/}</>
+        <>
+            <input className = {'pa3 ba b--green bg-lightest-blue'}
+                 type='search'
+                 placeholder={'search robots'}
+                 onChange={searchChange} />
+
+             {/*scris in continuare pentru culoare al "SearchBox"*/}
+        </>
     );
 }
 export default SearchBox;
