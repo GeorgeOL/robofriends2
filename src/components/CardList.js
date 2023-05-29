@@ -4,7 +4,9 @@ import Card from "./Card";
 
 const CardList = ({ robot }) => {
     // const cardComponent =
-
+// if (true) {
+//     throw new Error('nop');
+// }
     return (
         <>
             {
